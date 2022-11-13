@@ -1,25 +1,19 @@
-.head{
+.nav{
     background-color: #B0E0E6 ;
-}
-
-strong{
-    text-align: left;
-    
-}
-
-.content {
-    background-color: #DDA0DD;
 }
 
 img{
     width: 30%;
-    align-self: right;
 }
 
-.title {
-    text-align: left;
-}
-
-.A{
+.url{
     text-align: right;
+}
+
+header {
+    background-color:rgb(211, 188, 233);
+}
+
+button {
+ background-color: rgb(68, 202, 202);
 }
