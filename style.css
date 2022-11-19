@@ -1,19 +1,74 @@
-.nav{
-    background-color: #B0E0E6 ;
+@import url('https://fonts.googleapis.com/css2?family=Marhey:wght@300;400;500;600;700&display=swap');
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: 'Marhey', sans-serif;
 }
 
-img{
-    width: 30%;
+nav {
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 16px;
+    background-color: rgb(180, 241, 241);
 }
 
-.url{
-    text-align: right;
+.logo {
+    width: 300px;
+}
+
+a {
+    color: black;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+ul {
+    display: flex;
+}
+
+li {
+    list-style-type: none;
+    padding-left: 26px;
 }
 
 header {
-    background-color:rgb(211, 188, 233);
+    background-color: rgb(231, 217, 242);
+    height: calc(100vh - 30px);
+    padding: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h1{
+    font-size: 72px;
+}
+
+.subhead {
+    font-size: 36px;
+    margin: 16px 0 24px 0;
 }
 
 button {
- background-color: rgb(68, 202, 202);
+    background-color: aqua;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    cursor: pointer;
+}
+
+.about {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   padding: 24px;
+background-color: rgb(236, 244, 222)
+}
+
+.para {
+    font-size: 24px;
+    margin: 16px 0 24px 0;
 }
